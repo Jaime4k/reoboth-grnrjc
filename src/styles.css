@@ -1,0 +1,51 @@
+/* Add application styles & imports to this file! */
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("https://webassets.mongodb.com/_com_assets/cms/header-au039oiqsr.svg"); 
+  background-size: 180%; 
+  background-position: top; 
+  background-repeat: repeat;
+  font-family: Montserrat;
+}
+
+h1{
+    font-family: Alegreya Sans SC;
+    font-size: 35pt;
+    font-weight: 300;
+}
+
+h4{
+    font-family: Alegreya Sans SC;
+    font-weight: 400;
+    color: #333;
+}
+
+h5{
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+p{
+    color: #333;
+    font-weight: 500;
+}
+
+.purple{
+    background: -webkit-linear-gradient(#2369ff, #2568ff,#bc27ff,#bf26ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.orange{
+    background: -webkit-linear-gradient(#ff9800, #cddc39, #ff9800, #ffc107);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

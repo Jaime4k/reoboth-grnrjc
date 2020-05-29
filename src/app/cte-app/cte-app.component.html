@@ -1,0 +1,16 @@
+<div class="w3-container">
+
+  <div class="w3-cell w3-cell-top">
+
+    <img src="{{icono}}">      
+  </div>
+
+  <div class="w3-container w3-cell w3-cell-top" style="padding: 0">
+
+    <h1 class="purple" style="margin: 0">{{titulo}}</h1>
+
+    <ng-content select="[header]"></ng-content> 
+
+    <ng-content></ng-content> 
+  </div>
+</div>

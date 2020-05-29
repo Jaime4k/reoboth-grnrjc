@@ -1,0 +1,22 @@
+<div class="w3-padding-64" style="padding: 5%">
+
+  <app-cte-app *ngFor="let app of Aplicaciones | async"
+                titulo="{{app.titulo}}"
+                icono='{{app.icono.fuente}}'>
+
+    <h4 header 
+        [innerHTML]='app.cabecera'>
+    </h4>
+
+    <app-cte-fre *ngFor="let fre of app.caracteristicas"
+                  titulo="{{fre.titulo}}"> 
+
+      <div svgIcon class="w3-cell w3-container w3-cell-middle">
+        <img src='{{fre.icono.fuente}}'/>
+      </div>
+
+      <p [innerHTML]='fre.cabecera'></p>
+    </app-cte-fre>
+
+  </app-cte-app>
+</div>
